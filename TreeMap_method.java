@@ -11,7 +11,7 @@ public class TreeMap_method {
 	private Map<String,Integer> mapping=new TreeMap<String,Integer>();
 	// Rememeber that Map, is a interface that is member of the Java Collections Framework.
 	// I create a new Object of TreeMap type,The map is sorted according to the natural ordering of its keys, or by a Comparator
-	// for each key I can have one element ,but same elements can be associeted to different keys
+	// for each key(unique without repetitions) I can have one element ,but same elements can be associeted to different keys
 	public TreeMap_method (File file) throws IOException
 	{
 		Scanner scanner=new Scanner(file); // creating new scanner, creation of new scanners, which takes an input file read from directory.txt
